@@ -6,7 +6,7 @@ package patternsearch;
 public class Problem1 {
 
     public static void main(String[] args) {
-        Problem1.search("AABAACAADAABAABA" , "AABA");
+        Problem1.search("ABABABCABABABCABABABC" , "ABABAC");
     }
 
     public static void search( String text, String pattern ) {
